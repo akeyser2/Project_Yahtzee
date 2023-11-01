@@ -199,7 +199,7 @@ class Yahtzee {
         for(Integer i=0; i < diceIcons.length; i++) {
             // Get new dice images these are ugly
             dieFile = System.getProperty("user.dir");
-            dieFile += "\\src\\media\\D6-0" + (i);
+            dieFile += "\\simple-yahtzee-gui-akeyser2\\src\\media\\D6-0" + (i);
             pressedFile = dieFile;
             if(i != 0)
                 pressedFile += "P.png";
